@@ -1,0 +1,8 @@
+*.DS_Store
+
+fisherman/*
+fish/*
+!fish/config.fish
+
+nvim/*
+!nvim/init.vim
