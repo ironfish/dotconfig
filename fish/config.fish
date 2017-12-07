@@ -7,6 +7,7 @@
 # environment variables
 #set -g -x fish_term24bit 1
 set -g -x PATH /usr/local/opt/coreutils/libexec/gnubin $PATH
+set -g -x PATH /usr/local/opt/go/libexec/bin $PATH
 set -g -x FZF_DEFAULT_COMMAND 'ag -l -g ""'
 # set -g -x FZF_DEFAULT_OPTS '--color fg:251,bg:234,hl:167,fg+:178,bg+:236,hl+:167 --color info:183,prompt:110,spinner:107,pointer:167,marker:215'
 # set -x DOCKER_HOST tcp://192.168.99.100:2376
@@ -42,6 +43,7 @@ alias cdc   'cd ~/.config'
 
 # app aliases
 alias vimr '/Applications/VimR.app/Contents/Resources/vimr'
+alias sublime '~/bin/subl'
 
 # git aliases
 # alias ga='echo "git add ."; git add .'

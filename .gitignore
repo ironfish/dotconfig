@@ -4,5 +4,7 @@ fisherman/*
 fish/*
 !fish/config.fish
 
+configstore/*
+
 nvim/*
 !nvim/init.vim

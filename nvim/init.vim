@@ -245,6 +245,8 @@ endfunction
 " }}
 
 " colorschemes and eye-candy plugins {{
+Plug 'rakr/vim-one'
+Plug 'rakr/vim-two-firewatch'
 Plug 'chriskempson/base16-vim'
 Plug 'mhartington/oceanic-next'
 Plug 'nanotech/jellybeans.vim'
@@ -258,8 +260,8 @@ Plug 'MaxSt/FlatColor'
 Plug 'rakr/vim-one'
 " }}
 
-
 " itchyny/lightline.vim {{
+"\ 'colorscheme': 'tenderplus',
 Plug 'itchyny/lightline.vim'
 function! InitLightline()
   let g:lightline = {
